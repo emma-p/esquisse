@@ -1,0 +1,10 @@
+{
+  "strict": true,
+  "indent": 2,
+  "latedef": true,
+  "eqeqeq": true,
+  "immed": true,
+  "browser": true,
+  "node": true
+}
+
