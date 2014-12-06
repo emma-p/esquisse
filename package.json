@@ -2,7 +2,9 @@
   "name": "esquisse",
   "version": "0.1.0",
   "description": "Esquisse is a tool for creating wireframes with a simple declarative language",
-  "keywords": ["wireframes"],
+  "keywords": [
+    "wireframes"
+  ],
   "main": "index.js",
   "private": true,
   "scripts": {
