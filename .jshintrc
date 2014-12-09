@@ -5,6 +5,7 @@
   "eqeqeq": true,
   "immed": true,
   "browser": true,
-  "node": true
+  "node": true,
+  "mocha": true
 }
 

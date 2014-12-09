@@ -12,7 +12,7 @@ describe('model', function () {
       model.ee.on("modelChange", function(res) {
         result = res;
       });
-    })
+    });
 
     describe('the given text is parsable', function() {
 
@@ -21,14 +21,14 @@ describe('model', function () {
         var expectedAST = [{"doctype":"desktop","title":"title"},"\n",[{"keyword":"button","attributes":[{"attr":"size","value":12}],"children":[]}]];
         model.computeAST("desktop title\n  button [size:12]");
         assert.deepEqual(model.getAST().description, expectedAST);
-      }),
+      });
 
       it('emits an event with a success notice', function() {
 
         model.computeAST("desktop title\n  button [size:12]");
         assert(result.isSuccessful);
         assert.equal(result.message, "Parsing successful");
-      })
+      });
     });
 
     describe('the given text is not parsable', function() {
